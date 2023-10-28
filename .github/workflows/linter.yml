@@ -1,0 +1,26 @@
+name: Linter
+
+# Lint pushes to master or pull requests
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    name: Linter
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Lint code
+      uses: docker://github/super-linter:latest
+      env:
+        VALIDATE_PYTHON_BLACK: false
+        VALIDATE_JSCPD: false
+        VALIDATE_PYTHON_ISORT: false
+        MULTI_STATUS: true
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
