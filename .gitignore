@@ -1,3 +1,8 @@
+###### large files (on zenodo)
+data/
+models/
+src/model
+
 ###### Python
 # Byte-compiled / optimized / DLL files
 __pycache__/
