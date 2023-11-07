@@ -1,4 +1,4 @@
-# FlaMBe: flow annotations for multiverse biological entites
+# FlaMBe: flow annotations for multiverse biological entities
 
 This repository contains datasets for tissue and tool named entity recognition,
 annotation files for biological workflow extraction, disambiguation files,
@@ -12,11 +12,11 @@ Dannenfelser R, Zhong J, Zhang R, Yao V. Pending OpenReview. 2023.
 
 ## Organization
 
-This repo is organized into several sections.
+This repo is organized into several sections part of which is stored on [zenodo](https://zenodo.org/records/10050681).
 
-- `data`: contains processed datasets for BioNLP tasks (on zenodo)
+- `data`: contains processed datasets for BioNLP tasks (on [zenodo](https://zenodo.org/records/10050681))
 - `src`: contains the code used to extract data from PMC, build BERT models, and all related tasks to assemble a collection of data for manual curation
-- `models`: fine-tuned PubmedBERT models for tissue and cell type tagging (on zenodo)
+- `models`: fine-tuned PubmedBERT models for tissue and cell type tagging (on [zenodo](https://zenodo.org/records/10050681))
 
 The data section is further divided into sections depending on downstream use cases:
 
@@ -29,7 +29,7 @@ and cell type tagging, as well as software tagging.
 
 ## Annotation file formats
 
-In this section we describe in detail the various file formats of the accessory files and
+In this section, we describe in detail the various file formats of the accessory files and
 main annotation files: IOB, CoNLL, disambiguation, and workflow files.
 
 #### IOB files
@@ -68,7 +68,7 @@ and abstract files and map them to NCIT identifiers. An additional file
 and descriptions for the `tissue`, `organ`, `body part`, `fluid`, and `cell type`
 branches of the ontology.
 
-Tools are manually disambiguated to a standardized name or acronymn taken
+Tools are manually disambiguated to a standardized name or acronym taken
 from their initial paper or acronym. In `tool_ned_table.txt` we map tokens
 present in the full text and abstract files to these standardized names.
 The file `tools_info.txt` maps these standardized names to project websites
