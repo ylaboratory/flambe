@@ -8,7 +8,7 @@ and code used for curation, and the model use cases.
 
 > Into the Single Cell Multiverse: an End-to-End Dataset for 
 Procedural Knowledge Extraction in Biomedical Texts.
-Dannenfelser R, Zhong J, Zhang R, Yao V. Pending OpenReview. 2023.
+Dannenfelser R, Zhong J, Zhang R, Yao V. Accepted at NeurIPS Datasets and Benchmarks. 2023.
 
 ## Organization
 
