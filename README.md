@@ -10,6 +10,8 @@ and code used for curation, and the model use cases.
 Procedural Knowledge Extraction in Biomedical Texts.
 Dannenfelser R, Zhong J, Zhang R, Yao V. Accepted at NeurIPS Datasets and Benchmarks. 2023.
 
+https://doi.org/10.48550/arXiv.2309.01812
+
 ## Organization
 
 This repo is organized into several sections part of which is stored on [zenodo](https://zenodo.org/records/10050681).
