@@ -8,11 +8,11 @@ and code used for curation, and the model use cases.
 
 > [Into the Single Cell Multiverse: an End-to-End Dataset for 
 Procedural Knowledge Extraction in Biomedical Texts.](https://openreview.net/forum?id=6iRH9SITva)
-Dannenfelser R, Zhong J, Zhang R, Yao V. NeurIPS 2024 Datasets and Benchmarks Spotlight.
+Dannenfelser R, Zhong J, Zhang R, Yao V. NeurIPS 2023 Datasets and Benchmarks Spotlight.
 
 ## Organization
 
-This repo is organized into several sections part of which is stored on [zenodo](https://zenodo.org/records/10050681).
+This repo is organized into several sections, part of which is stored on [zenodo](https://zenodo.org/records/10050681).
 
 - `data`: contains processed datasets for BioNLP tasks (on [zenodo](https://zenodo.org/records/10050681))
 - `src`: contains the code used to extract data from PMC, build BERT models, and all related tasks to assemble a collection of data for manual curation
